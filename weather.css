@@ -1,0 +1,103 @@
+div,h1,ul,li{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image:url("http://www.win7.la/uploadslxy/allimg/160125/1Z5522424-3.jpg");
+  background-size: cover;
+  font-family:fantasy;
+  
+  
+}
+.container{
+  padding-top:10%;
+  word-spacing:20px;
+  
+}
+.fa-cloud{
+/*   color:linear-gradient(#E73C4E,#00A566); */
+  font-size: 40px;
+  background: -webkit-linear-gradient(#1E90FF, #F00);
+  background: -ms-linear-gradient(#1E90FF, #F00);
+  background: -moz-linear-gradient(#1E90FF, #F00);
+  background: -o-linear-gradient(#1E90FF, #F00);
+  background: linear-gradient(#1E90FF, #F00);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  text-fill-color: transparent;
+  
+/*   color:#00A566; */
+}
+/*h1{
+  margin-bottom: 20px;
+}*/
+#icon-box{
+      border-radius: 10px;
+      display: inline-block;
+      width: 170px;
+      height: 170px;
+      margin-top: 40px;
+      background-color: rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 50px 20px 0px 20px;
+      margin-bottom: 20px;
+  }
+
+
+
+.wi{
+      font-size: 80px;
+      display: inline-block;
+      font-family: 'weathericons';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+
+}
+.list{
+  margin: 0 auto; 
+}
+
+li{
+    list-style: none;
+  
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-color:rgba(256,255,255,0.8);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn:hover{
+  background-color:rgba(0,0,0,0.1);
+  transform:scale(1.1);
+  border:3px solid #4183D7;
+  transition:all 0.2s ease-out;
+}
+
